@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <!-- NavBar -->
+    <nav>
+        <a href="#" class="logo">Tobi</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <!-- Menu -->
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#services" onclick="toggleMenu();">Services</a></li>
+            <li><a href="#work" onclick="toggleMenu();">Work</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- Main Text and Image -->
+    <section id="home">
+        <div class="home-text">
+            <h1>Hi, I'm <br>Tobias <span>Neidhardt</span><br> Software Developer</h1>
+            <!-- Button -->
+            <a href="#">Hire Me</a>
+        </div>
+        <!-- Home Image -->
+        <div class="home-img">
+            <img src="images/profile.jpg" alt="">
+        </div>
+        <!-- social -->
+        <!-- <div class="social">
+            <a href="#"><i class='bx bxl-facebook'></a></i>
+            <a href="#"></a><i class='bx bxl-github'></a></i>
+            <a href="#"></a><i class='bx bxl-linkedin-square'></a></i>
+        </div> -->
+    </section>
+    <!-- About section -->
+    <section id="about">
+        <div class="heading">
+            <h2>About</h2>
+            <p>My Introduction</p>
+        </div>
+        <!-- about content -->
+        <div class="about-content">
+            <div class="about-img">
+                <img src="images/profile.jpg" alt="">
+            </div>
+            <div class="about-text">
+                <h1>I am Tobi. A Software developer.</h1>
+                <p>
+                    During my Business IT studies I had my first programming experience. My first programms I wrote in
+                    Java. I also worked six month as a Java developer at an internship. In addition to Java, I learned
+                    the programming language Dart. With the help of Dart and Flutter I have implemented a few projects.
+                    I am currently working as an ABAP developer at Accenture. I have acquired knowledge in the field of
+                    EWM.
+                </p>
+                <a href="images/profile.jpg" download="CV">Download CV</a>
+            </div>
+        </div>
+    </section>
+    <!-- Services -->
+    <section id="services">
+        <div class="heading">
+            <h2>Skills</h2>
+            <p>My skills</p>
+        </div>
+        <div class="services-content">
+
+            <!-- box -->
+            <div class="box">
+                <img src="images/flutter.png" alt="">
+                <!-- <h1>App Development</h1> -->
+                <p>I gained experience in app developent during some projects. During my studies, I developed the
+                    Verein-O-Mat with fellow students. This is an app that young people can use to find the right club
+                    for them in the district of Würzburg. I also developed a recipe app with a friend. This specializes
+                    in a vegetarian diet. For more information about other projects, please feel free to contact me.</p>
+            </div>
+
+            <!-- box -->
+            <div class="box">
+                <img src="images/java.png" alt="">
+                <!-- <h1>Java</h1> -->
+                <p>I made my first programming experiences with Java. During my studies, I was able to lay the most
+                    important foundations here and then start my internship as a Java developer. During my internship I
+                    was able to deepen my knowledge of Java.</p>
+            </div>
+
+            <!-- box -->
+            <div class="box">
+                <img src="images/sap.png" alt="">
+                <!-- <h1>SAP</h1> -->
+                <p>As part of my studies, I was able to gain my first experience in the SAP area. I passed the
+                    certification as 'Certificated Application Associate - Business Process Integration with SAP S/4HANA
+                    1909' I have been working at Accenture in Würzburg as an ABAP developer since June 2021.
+                    Here I was able to build up in-depth knowledge of ABAP and the EWM module.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work section -->
+    <section id="work">
+        <div class="heading">
+            <h2>Experience and Education</h2>
+            <p>Short overview</p>
+        </div>
+        <div class="work-content">
+            <div class="work-text">
+                <h1>We belive to deliver best <br>Quality work</h1>
+                <p>asfkjnaslkfnlkasnflkasnfpklasf aspfnaslkfnalksf öalsnflak sfölasf ölasf</p>
+                <a href="#Contact">Contact</a>
+            </div>
+            <div class="work-img">
+                <img src="images/work.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="heading color">
+            <h2>Contact</h2>
+            <p>Leave me a message</p>
+        </div>
+        <div class="contact-content">
+            <div class="contact-form">
+                <form action="">
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Your E-Mail">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Write your message here..."></textarea>
+                    <input type="button" value="Send" class="contact-button">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <div class="social">
+            <a href="#"><i class='bx bxl-facebook'></a></i>
+            <a href="https://github.com/TobiasNeidhardt"><i class='bx bxl-github'></a></i>
+            <a href="https://www.linkedin.com/in/tobias-neidhardt-17aa65201/"><i class='bx bxl-linkedin-square'></a></i>
+        </div>
+        <p>Copyright Tobias Neidhardt, 2022, All rights reserved</p>
+    </div>
+
+    <!-- Scroll Animation -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"> </script>
+</body>
+
+</html>
+
+<!-- https://github.com/RyanFitzgerald/devportfolio -->
