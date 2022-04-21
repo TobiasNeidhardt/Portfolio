@@ -21,7 +21,7 @@
             <li><a href="#home" onclick="toggleMenu();">Home</a></li>
             <li><a href="#about" onclick="toggleMenu();">About</a></li>
             <li><a href="#services" onclick="toggleMenu();">Services</a></li>
-            <li><a href="#work" onclick="toggleMenu();">Work</a></li>
+            <li><a href="#work" onclick="toggleMenu();">Skills</a></li>
             <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
         </ul>
     </nav>
@@ -30,7 +30,7 @@
         <div class="home-text">
             <h1>Hi, I'm <br>Tobias <span>Neidhardt</span><br> Software Developer</h1>
             <!-- Button -->
-            <a href="#">Hire Me</a>
+            <a href="#">Contact Me</a>
         </div>
         <!-- Home Image -->
         <div class="home-img">
@@ -52,7 +52,7 @@
         <!-- about content -->
         <div class="about-content">
             <div class="about-img">
-                <img src="images/profile.jpg" alt="">
+                <img src="images/profile-circle.png" alt="">
             </div>
             <div class="about-text">
                 <h1>I am Tobi. A Software developer.</h1>
@@ -63,10 +63,11 @@
                     I am currently working as an ABAP developer at Accenture. I have acquired knowledge in the field of
                     EWM.
                 </p>
-                <a href="images/profile.jpg" download="CV">Download CV</a>
+                <a href="Lebenslauf.pdf" download="CV">Download CV</a>
             </div>
         </div>
     </section>
+
     <!-- Services -->
     <section id="services">
         <div class="heading">
@@ -106,23 +107,24 @@
         </div>
     </section>
 
-    <!-- Work section -->
-    <section id="work">
-        <div class="heading">
-            <h2>Experience and Education</h2>
-            <p>Short overview</p>
-        </div>
-        <div class="work-content">
-            <div class="work-text">
-                <h1>We belive to deliver best <br>Quality work</h1>
-                <p>asfkjnaslkfnlkasnflkasnfpklasf aspfnaslkfnalksf öalsnflak sfölasf ölasf</p>
-                <a href="#Contact">Contact</a>
-            </div>
-            <div class="work-img">
-                <img src="images/work.jpg" alt="">
-            </div>
-        </div>
-    </section>
+    <div id="skills">
+        <h2 class="heading">Skills overview</h2>
+        <ul>
+            <li>Java</li>
+            <li>Python</li>
+            <li>Flutter</li>
+            <li>Dart</li>
+            <li>Python</li>
+            <li>Firebase</li>
+            <li>MongoDB</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>ABAP</li>
+            <li>S/4HANA</li>
+            <li>EWM</li>
+        </ul>
+    </div>
 
     <!-- Contact -->
     <section id="contact">
@@ -132,10 +134,11 @@
         </div>
         <div class="contact-content">
             <div class="contact-form">
-                <form action="">
-                    <input type="text" placeholder="Name">
-                    <input type="email" placeholder="Your E-Mail">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Write your message here..."></textarea>
+                <form action="https://formsubmit.co/tobnei@gmx.de" method="post">
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="Your E-Mail" required>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Write your message here..."
+                        required></textarea>
                     <input type="button" value="Send" class="contact-button">
                 </form>
             </div>
@@ -158,5 +161,3 @@
 </body>
 
 </html>
-
-<!-- https://github.com/RyanFitzgerald/devportfolio -->

@@ -42,6 +42,7 @@ nav {
     align-items: center;
     z-index: 1000;
     transition: 0.5s;
+    background-color: #f3f0f0f1;
 }
 
 .logo {
@@ -70,6 +71,7 @@ ul li a:hover {
 }
 
 /* Home-Text Css */
+
 .home-text {
     max-width: 500px;
 }
@@ -515,4 +517,43 @@ ul li a:hover {
         width: 300px;
     }
 
+}
+
+#skills {
+    padding: 50px 15px;
+    text-align: center
+}
+
+#skills h2 {
+    color: var(--second-color);
+    margin-bottom: 50px
+}
+
+#skills ul {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 800px
+}
+
+#skills li {
+    display: inline-block;
+    margin: 7px;
+    padding: 5px 10px;
+    color: #374054;
+    background: #e4e4ea;
+    list-style: none;
+    cursor: default;
+    font-size: 1.2em
+}
+
+#skills li:hover {
+    display: inline-block;
+    margin: 7px;
+    padding: 5px 10px;
+    color: #fff;
+    background: var(--main-color);
+    list-style: none;
+    cursor: default;
+    font-size: 1.2em
 }
